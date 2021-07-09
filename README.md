@@ -1,3 +1,10 @@
+Fetching Data using axios.
+![image](https://user-images.githubusercontent.com/55655793/125116324-34ff4800-e10a-11eb-9403-82c373b38709.png)
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
