@@ -3,9 +3,8 @@ import axios from "axios";
 import Showdata from "./Showdata"
 interface Props {
     pageNumber: number;
-    title: string;
 }
-const Userdata: FC<Props> = ({ pageNumber, title }) => {
+const Userdata: FC<Props> = ({ pageNumber }) => {
     const [users, setUsers] = useState<any>([]);
     useEffect(() => {
         console.log("Before Request trigger");
