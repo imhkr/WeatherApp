@@ -10,7 +10,7 @@ const App: React.FC<Props> = (props) => {
     <div>
       <Userdata pageNumber={page} title={title} />
       <button className="text-white py-2 px-4 bg-blue-600" onClick={() => setPage(page + 1)}>
-        Next
+        Next Page
       </button>
     </div>
   );

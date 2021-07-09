@@ -13,12 +13,9 @@ const Userdata: FC<Props> = ({ pageNumber, title }) => {
             .get(
                 "https://randomuser.me/api/?inc=id,name,gender,email&page=" + pageNumber + "&results=20"
             ).then((IncomingRes) => {
-                console.log("After response arrival");
-                console.log(IncomingRes.data.results);
                 setUsers(IncomingRes.data.results)
 
             });
-        console.log("After request trigger");
     }, [pageNumber]);
     return (
         <div>
