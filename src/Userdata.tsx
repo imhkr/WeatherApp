@@ -18,7 +18,7 @@ const Userdata: FC<Props> = ({ pageNumber }) => {
     }, [pageNumber]);
     return (
         <div>
-            <table className="table-fixed my-4 mx-4">
+            <table className="table-fixed my-4 mx-4 border-2">
                 <thead>
                     <tr >
                         <td className="bg-blue-400 px-32 py-4">

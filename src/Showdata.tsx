@@ -10,7 +10,7 @@ const Showdata: FC<Props> = ({ email, gender }) => {
 
     return (
         <div>
-            <table>
+            <table className="border-2">
                 <tbody>
                     <tr>
                         <td className="px-20 my-4 ">{email}</td>
