@@ -1,17 +1,18 @@
-import Userdata from "./Userdata";
-import React, { Dispatch, useState, SetStateAction, Fragment } from "react";
-interface Props { }
+import axios from "axios";
+import { useState } from "react";
+import CityComp from "./CityComp"
+import WeatherIn from "./WeatherIn";
+
+// import React, { Dispatch, useState, SetStateAction, Fragment } from "react";
+interface Props {
+}
 
 const App: React.FC<Props> = (props) => {
-  const [page, setPage] = useState(1);
   return (
-
-    <div>
-      <Userdata pageNumber={page} />
-      <button className="text-white py-2 px-4 bg-blue-600" onClick={() => setPage(page + 1)}>
-        Next Page
-      </button>
-    </div>
+    <div className="flex justify-center">
+      {/* <WeatherIn /> */}
+      <CityComp />
+    </div >
   );
 }
 
