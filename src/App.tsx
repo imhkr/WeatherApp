@@ -1,7 +1,5 @@
-import axios from "axios";
-import { useState } from "react";
+
 import CityComp from "./CityComp"
-import WeatherIn from "./WeatherIn";
 
 // import React, { Dispatch, useState, SetStateAction, Fragment } from "react";
 interface Props {

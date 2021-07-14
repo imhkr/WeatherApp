@@ -2,8 +2,7 @@ import axios from "axios";
 import React, { FC, memo, useEffect, useState } from "react";
 
 interface Props {
-    // updateCity: any;
-    // fetchWeather: any;
+
 }
 
 const CityComp: FC<Props> = (props) => {
@@ -36,7 +35,7 @@ const CityComp: FC<Props> = (props) => {
             <div className="flex-col mx-28">
                 <h1 className="font-semibold text-2xl my-10 justify-center tracking-wider bg-gradient-to-br from-red-300 via-pink-100 to-green-100) ">Weather App</h1>
                 <img src="../images/weather.svg" className="w-full h-40 justify-center"></img>
-                <h1 className="font-medium bg-yellow-100  font-semibold">Enter Your City Name</h1>
+                <h1 className=" bg-yellow-100  font-semibold">Enter Your City Name</h1>
                 <div >
                     <input
                         type="Search"
